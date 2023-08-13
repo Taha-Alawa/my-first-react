@@ -96,7 +96,7 @@ section {
 
 @supports (background-blend-mode: multiply) {
   .hero {
-      background: url(/shoes\ img/shoe-3.png),
+      background: url(/public/shoes/shoe-3.png),
       radial-gradient(#444, #111);
       background-blend-mode: multiply;
       background-attachment: fixed;
@@ -182,13 +182,13 @@ span {
   .product__image {
     float: right;
     width: 57%;
-    shape-outside: url(../shoes\ img/shoe-1.png);
+    shape-outside: url(/public/shoes/shoe-1.png);
     shape-margin: 1em;
     margin: 0 -5em 0 0;
   }
   .product.shoe-left .product__image {
     float: left;
-    shape-outside: url(../shoes\ img/shoe-2.png);
+    shape-outside: url(/public/shoes/shoe-2.png);
     margin: 0 0 0 -5em;
     shape-margin: 2em;
   }
